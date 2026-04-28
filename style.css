@@ -1,3 +1,4 @@
+
 /* Base */
 body {
   font-family: Arial, sans-serif;
@@ -11,6 +12,7 @@ body {
   max-width: 800px;
   margin: auto;
   padding: 20px;
+  line-height: 1.6;
 }
 
 /* Títulos */
@@ -37,10 +39,10 @@ body {
   border-radius: 8px;
 }
 
-/* Links */
 .link {
   color: #4ea1ff;
   text-decoration: none;
+  font-weight: 500;
 }
 
 .link:hover {
@@ -49,39 +51,12 @@ body {
 
 /* Imagen */
 .foto {
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
-  margin-bottom: 15px;
-}
-
-/* Botón */
-.boton {
-  background-color: #4ea1ff;
-  color: white;
-  border: none;
-  padding: 8px 12px;
-  cursor: pointer;
-  border-radius: 5px;
-}
-
-/* Modo claro */
-body.light {
-  background-color: #ffffff;
-  color: #000000;
-}
-
-body.light .card {
-  background-color: #f0f0f0;
-}
-
-body.light .link {
-  color: #0077cc;
-}
-
-
-.boton {
-  position: absolute;
-  top: 20px;
-  right: 20px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 15px auto;
 }
 
 header {
