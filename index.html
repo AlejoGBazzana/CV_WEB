@@ -5,12 +5,14 @@
   <title>Alejo Bazzana - Portfolio</title>
 </head>
 <body>
-  <header>
-    <h1>Alejo Bazzana</h1>
-    <p>Estudiante de programación enfocado en desarrollo web</p>
-  </header>
+    <div class="container">
+    <header class="section">
+        <button class="boton" onclick="toggleModo()">Modo claro/oscuro</button>
+        <img src="foto.jpg" class="foto" width="120">
+        <h1 class="titulo">Alejo Bazzana</h1>
+    </header>
 
-  <section>
+  <section class="section">
     <h2>Sobre mí</h2>
     <p>Actualmente estoy formándome en desarrollo web, trabajando con tecnologías como HTML, CSS, JavaScript y SQL.</p>
   </section>
@@ -19,45 +21,63 @@
     <h2>Proyectos</h2>
     <ul>
       <li>
-        <strong>Trabajo en Python</strong><br>
-        Pequeño proyecto donde trabajo lógica básica y estructuras<br>
-        <a href="https://github.com/AlejoGBazzana/python" target="_blank">Ver en GitHub</a>
+        <div class="card">
+          <strong>Trabajo en Python</strong><br>
+          Pequeño proyecto donde trabajo lógica básica y estructuras<br>
+          <a href="https://github.com/AlejoGBazzana/python" target="_blank">Ver en GitHub</a>
+        </div>
       </li>
 
       <li>
-        <strong>Django Club</strong><br>
-        Proyecto web desarrollado con Django para practicar estructura, vistas y manejo de datos.<br>
-        <a href="https://github.com/AlejoGBazzana/django-club" target="_blank">Ver en GitHub</a>
+        <div class="card">
+          <strong>Django Club</strong><br>
+          Proyecto web desarrollado con Django para practicar estructura, vistas y manejo de datos.<br>
+          <a href="https://github.com/AlejoGBazzana/django-club" target="_blank">Ver en GitHub</a>
+        </div>
       </li>
 
       <li>
-        <strong>CV Web - Programación III</strong><br>
-        Versión en desarrollo de mi portfolio personal, con mejoras de diseño y contenido en progreso<br>
-        <a href="https://github.com/AlejoGBazzana/CV_WEB_Prog_III" target="_blank">Ver en GitHub</a>
+        <div class="card">
+          <strong>CV Web - Programación III</strong><br>
+          Versión en desarrollo de mi portfolio personal, con mejoras de diseño y contenido en progreso<br>
+          <a href="https://github.com/AlejoGBazzana/CV_WEB_Prog_III" target="_blank">Ver en GitHub</a>
+        </div>
       </li>
 
       <li>
-        <strong>Mis Herramientas IA</strong><br>
-        Repositorio con herramientas y recursos que uso para organizar y mejorar mi trabajo con IA.<br>
-        <a href="https://github.com/AlejoGBazzana/mis-herramientas-ia" target="_blank">Ver en GitHub</a>
+        <div class="card">
+          <strong>Mis Herramientas IA</strong><br>
+          Repositorio con herramientas y recursos que uso para organizar y mejorar mi trabajo con IA.<br>
+          <a href="https://github.com/AlejoGBazzana/mis-herramientas-ia" target="_blank">Ver en GitHub</a>
+        </div>
       </li>
 
       <li>
-        <strong>Agenda Docente</strong><br>
-        Proyecto en desarrollo orientado a organización y gestión de información docente.<br>
-        <a href="https://github.com/AlejoGBazzana/agenda-docente" target="_blank">Ver en GitHub</a>
+        <div class="card">
+          <strong>Agenda Docente</strong><br>
+          Proyecto en desarrollo orientado a organización y gestión de información docente.<br>
+          <a href="https://github.com/AlejoGBazzana/agenda-docente" target="_blank">Ver en GitHub</a>
+        </div>
       </li>
     </ul>
   </section>
 
   <section>
-    <h2>Contacto</h2>
-    <p>
-      <a href="https://github.com/AlejoGBazzana" target="_blank">
-        Mi perfil de GitHub
-      </a>
-    </p>
-  </section>
+  <h2>Contacto</h2>
+  <p>
+    <a href="https://github.com/AlejoGBazzana" target="_blank">GitHub</a>
+  </p>
+  <p>
+    <a href="mailto:alejobazzana@gmail.com">Enviar email</a>
+  </p>
+  <p>
+    <a href="https://www.linkedin.com/in/alejo-bazzana-89ab37394/" target="_blank">LinkedIn</a>
+  </p>
+  
 
+
+<script> src="script.js"</script>
+</section>
+</div>
 </body>
 </html>
